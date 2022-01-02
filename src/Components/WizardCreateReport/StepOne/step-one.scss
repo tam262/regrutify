@@ -1,0 +1,93 @@
+.searchDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+
+  input {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: 1px solid rgb(119, 118, 118);
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  input:hover {
+    filter: brightness(120%);
+  }
+  span {
+    margin: 0px 29px;
+    font-size: x-large;
+  }
+  .active {
+    border: 1px solid rgb(82, 78, 78);
+    border-radius: 50px;
+    padding: 13px 20px;
+    background-color: rgb(79, 124, 124);
+    color: white;
+  }
+}
+
+.candidates {
+  margin: auto;
+  overflow-y: scroll;
+  border: 1px solid rgb(182, 182, 182);
+  height: 450px;
+  width: 100vw;
+  padding: 20px;
+  .candidate {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 150px;
+    margin: 10px 0px;
+    cursor: pointer;
+    overflow-wrap: break-word;
+    h3 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 30px;
+      margin: 15px 50px;
+      color: rgb(46, 46, 46);
+    }
+    p {
+      text-align: center;
+      color: rgb(124, 122, 122);
+      font-size: 20px;
+    }
+    img {
+      height: 100px;
+      border-radius: 50%;
+      align-self: center;
+      padding-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .active {
+    box-shadow: 0px 0px 7px 7px rgba(79, 124, 124, 0.75);
+    -webkit-box-shadow: 0px 0px 7px 7px rgba(79, 124, 124, 0.75);
+    -moz-box-shadow: 0px 0px 7px 7px rgba(79, 124, 124, 0.75);
+  }
+}
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 80px;
+  button {
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    cursor: pointer;
+    letter-spacing: 5px;
+    margin-top: 40px;
+  }
+}
+.required-message {
+  color: rgb(167, 21, 21);
+  margin: 10px 0px 0px 50px;
+}

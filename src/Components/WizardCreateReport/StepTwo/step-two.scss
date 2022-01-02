@@ -1,0 +1,64 @@
+.searchDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 80px;
+
+  input {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: 1px solid rgb(119, 118, 118);
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  input:hover {
+    filter: brightness(120%);
+  }
+  span {
+    margin: 0px 29px;
+    font-size: xx-large;
+  }
+  .active {
+    border: 1px solid rgb(82, 78, 78);
+    border-radius: 50px;
+    padding: 13px 20px;
+    background-color: rgb(79, 124, 124);
+    color: white;
+  }
+}
+
+.selectcompany {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  .selected-candidate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    p {
+      color: gray;
+    }
+  }
+  .allCompanies {
+    width: 900px;
+    font-size: 25px;
+    margin: 30px 30px;
+    .singleCompany {
+      padding: 5px;
+      font-weight: 700px;
+      margin: 10px 0px;
+      background-color: rgb(184, 178, 178);
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .active {
+      color: white;
+      box-shadow: 0px 0px 7px 7px rgba(79, 124, 124, 0.75);
+      -webkit-box-shadow: 0px 0px 7px 7px rgba(79, 124, 124, 0.75);
+      -moz-box-shadow: 0px 0px 7px 7px rgba(79, 124, 124, 0.75);
+    }
+  }
+}
