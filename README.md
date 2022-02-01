@@ -1,3 +1,8 @@
+# Reports API
+Regarding interviews reports API you will be using a local web server. Complete API which is needed for developing tasks can be found at:
+https://github.com/nenadbugaric/interviews-reports-api-mock
+On the github repository page you will find all information about how to start a web server and how to use API locally for development.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
